@@ -249,9 +249,9 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 
 
-#pkl_file = open('COLONPICKLENN/modelcolon.pkl', 'rb')
+pkl_file = open('COLONPICKLENN/modelcolon.pkl', 'rb')
 
-pkl_file = open('C:/Users/ddooling/MODEL/COLONPICKLENN/modelcolon.pkl', 'rb')
+#pkl_file = open('C:/Users/ddooling/MODEL/COLONPICKLENN/modelcolon.pkl', 'rb')
 
 clf = cPickle.load(pkl_file)
 
